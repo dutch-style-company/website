@@ -1,7 +1,11 @@
 /* Footer Styles */
 .footer {
-	background: var(--color-primary);
-	color: var(--color-white);
-	text-align: center;
-	padding: 2rem;
-} 
+  background: var(--color-primary);
+  color: var(--color-white);
+  text-align: center;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
